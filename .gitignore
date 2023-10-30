@@ -1,0 +1,9 @@
+.npmrc
+dist/
+node_modules/
+.idea/
+.eslintcache
+.vscode/
+lib/
+attic/
+*.iml

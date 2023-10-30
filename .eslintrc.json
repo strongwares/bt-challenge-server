@@ -1,0 +1,19 @@
+{
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "extends": [ "plugin:prettier/recommended", "eslint:recommended" ],
+  "rules": {
+    "comma-dangle": "off",
+    "linebreak-style": ["error", "unix"],
+    "no-console": ["error", { "allow": ["warn", "error"] }],
+    "no-param-reassign": "off",
+    "class-methods-use-this": "off",
+    "no-plusplus": "off"
+  }
+}
